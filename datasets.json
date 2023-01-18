@@ -4,6 +4,7 @@
   {
     "title": {{ dataset.title | jsonify }},
     "organization": {{ dataset.organization | jsonify }}{% if dataset.notes != "" %},
+    "maintainer": {{ dataset.maintainer | jsonify }},
     "notes": {{ dataset.notes | jsonify }}{% endif %}{% if dataset.notes != "" %},
     "category": {{ dataset.category | jsonify }}{% endif %},
     "url": "{{ site.baseurl }}{{ dataset.url }}"
