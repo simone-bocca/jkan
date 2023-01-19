@@ -5,7 +5,7 @@ baseurl: /jkan
 logo: /img/DataScientia_logo.jpg
 
 # Site theme
-jkan_theme: Lumen
+jkan_theme: Default
 
 # Authentication
 github_client_id: a914af3358b525d8f7d9
