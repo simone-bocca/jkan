@@ -1,7 +1,7 @@
-title: JKAN
-greeting: Welcome to JKAN
-description: A lightweight, backend-free open data portal, powered by Jekyll.
-baseurl: /jkan
+title: DataScientia
+greeting: DataScientia Catalog
+description: Open data portal for all you purposes
+baseurl: /ds
 logo: /img/jkan.png
 
 # Site theme
