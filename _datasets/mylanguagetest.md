@@ -13,5 +13,5 @@ category:
 maintainer: Simone Bocca
 maintainer_email: simone.bocca@gmail.com
 knowledge_level: Language (L1)
-Tags: 'dialetto, nord-italia'
+tags: 'dialetto, nord-italia'
 ---
