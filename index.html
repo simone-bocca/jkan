@@ -29,7 +29,7 @@ layout: default
 <h3>Services</h3>
 <div class="homepage-categories">
 {% for service in site.data.services %}
-  {% if category.featured == true %}
+  {% if service.featured == true %}
     {% capture logo_alt %}{{ service.name }}{% if service.logo_credit and service.logo_credit != empty %} logo by {{ service.logo_credit }}{% endif %}{% endcapture %}
       {{ service.name }}
     </a>
