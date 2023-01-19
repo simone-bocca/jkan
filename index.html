@@ -32,7 +32,7 @@ layout: default
   {% if service.featured == true %}
     {% capture logo_alt %}{{ service.name }}{% if service.logo_credit and service.logo_credit != empty %} logo by {{ service.logo_credit }}{% endif %}{% endcapture %}
       {% if service.logo and service.logo != empty %}
-        <img src="{{ site.baseurl }}{{ service.logo }}" alt="{{ logo_alt }}">
+        <img src="{{ site.baseurl }}{{ service.logo }}" alt="{{ logo_alt }}" width="50" height="50">
       {% endif %}
       {{ service.name }}
     </a>
