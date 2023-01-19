@@ -28,6 +28,9 @@ dataset_fields:
   - field_name: knowledge_level
     label: Knowledge Level
     datajson: knowledge_level
+  - field_name: Tags
+    label: tags
+    datajson: tags
 
 resource_fields:
   - field_name: name
