@@ -9,7 +9,8 @@ jkan_theme: Default
 
 # Authentication
 github_client_id: a914af3358b525d8f7d9
-gatekeeper_host: https://datascientiacatalog.herokuapp.com
+# gatekeeper_host: https://datascientiacatalog.herokuapp.com
+gatekeeper_host: http://localhost:9999
 
 # Dataset schema
 schema: ds-schema
